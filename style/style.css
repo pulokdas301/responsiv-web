@@ -130,6 +130,8 @@
 /* start new section */
 .Destination {
     width: 100%;
+
+
 }
 
 
@@ -326,7 +328,7 @@ h6 {
 
 /* start media query */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .top-container {
         width: 500px;
         height: 483px;
@@ -343,12 +345,14 @@ h6 {
     .top-div {
 
         padding-top: 40px;
+    }
 
-
-
+    .Destination {
+        margin-top: 200px;
 
 
     }
+
 
     .top-p {
         font-size: 14px;
